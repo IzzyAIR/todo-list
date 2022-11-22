@@ -1,0 +1,51 @@
+.container__panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    width: 800px;
+    .form__container {
+        border: 1px solid #0971f1;
+        border-radius: 30px;
+        background-color: #fff;
+        height: 240px;
+        padding: 30px ;
+        margin-bottom: 10px;
+    
+        &:hover {
+            box-shadow: 0 10px 20px #999;
+        }
+    
+        .container__top {
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: space-between;            
+    
+            .input__title {
+                width: 300px;
+                margin-right: 50px;
+    
+            }
+    
+            .input__date {
+                width: 200px;
+            }
+            
+            .btn__add {
+                align-self: center;
+                margin-left: 40px;
+                font-weight: 700;
+                font-size: 18px;
+            }
+    
+        }
+    
+        .input__text {
+            width: 730px;
+        }
+        .input__file{
+            margin-top: 10px
+        }
+    }
+}

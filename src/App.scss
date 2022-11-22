@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	background-color: #f0f0f0;
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.container {
+		width: 800px;
+		.header__title {
+
+			font-size: 30px;
+			font-weight: 700;
+			margin-top: 15px;
+			text-align: center;
+		  }
+		.panel__form {
+			display: block;
+			height: 100%;
+			margin: 10px 20px;
+		}
+		.cardList {
+			display: block;
+			height: 100%;
+			margin: 20px;
+		}
+	}
+}
